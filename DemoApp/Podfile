@@ -3,6 +3,7 @@ platform :ios, '11.0'
 target 'DemoApp' do
   use_frameworks!
 
-  pod 'PersonaInquirySDK2', '~>2.3.9'
+  pod 'PersonaInquirySDK2', '2.5.3'
+  pod 'RealmSwift', '10.28.2'
 
 end

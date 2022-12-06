@@ -21,7 +21,7 @@ class WelcomeViewController: UIViewController {
 
     // TODO: Set to your Inquiry Template ID string here!
     // Please see the README that explains how to get this Inquiry Template ID
-    private let personaInquiryTemplateId: String // = "itmpl_example"
+    private let personaInquiryTemplateId: String = "itmpl_example"
 
     // The identifier to the Storyboard segue
     private let showInquirySegueIdentifier = "showInquiry"
